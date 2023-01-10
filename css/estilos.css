@@ -48,14 +48,16 @@ body {
     display: flex;
     height: 70px;
     align-items: center;
-    
-    justify-content: space-between;
+    text-align: top;  
 }
+
 .nav__logo img{
-    height: 300px;
+    height: 350px;
     align-items: center;
     margin-right: 10px;
-    padding: 60px;
+    padding: 20%;
+    margin-top: 25%;
+    margin-right: 10%;
 }
 .nav {
     --padding-container: 0;
@@ -132,6 +134,13 @@ body {
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+}
+.hero__container img{
+    width: 300px;
+    padding: 20%;
+    align-items: center;
+    margin-top: 5%;
+
 }
 
 /* About */
@@ -505,7 +514,11 @@ body{
 
 .footer__img{
     width: 30px;
+    
+    
 }
+
+
 
 /* Media queries */
 
